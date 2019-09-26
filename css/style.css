@@ -102,7 +102,7 @@ a{
     background-color: #424242;
     background-blend-mode: soft-light;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     padding: 3% 0;
 }
 
@@ -309,6 +309,11 @@ a{
     font-size: 35px;
 }
 
+.nav-bar .slider
+{
+    padding-top: 5%;
+}
+
 .nav-bar .slider .slider-img img
 {
     width: 90%;
@@ -371,11 +376,54 @@ a{
 
 .nav-bar .slider .btn2 a:hover
 {
-    background-color: black;
+    background-color: #111;
     color: #2bb673;
     opacity: 0.5s;
     transition: 0.5s;
 }
+
+.search
+{
+    padding: 5% 0;
+    background-color: #c1e0e4;
+}
+
+.search .scan .searchterm
+{ 
+    width: 80%;
+    border: 1px solid #fff;
+    padding: 10px;
+    outline: none;
+    color: #6b6b6b;
+}
+
+.search .input-btn
+{
+    position: absolute;
+    height: 46px;
+    border: 0px solid #00B4CC;
+    background: #2bb673;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.search .input-btn i
+{ 
+    font-size: 16px;
+    padding: 0 10px;
+    color: #f1f1f1;
+}
+
+.search .input-btn i:hover
+{
+    color: #111;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+
+
 
 
 
