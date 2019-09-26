@@ -422,6 +422,52 @@ a{
     transition: 0.5s;
 }
 
+.about
+{
+    padding: 6% 0;
+    text-align: center;
+    background-blend-mode: soft-light;
+    background-color: #404040;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about .wrapper1 h1
+{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.about .wrapper1 p
+{
+    color: #dedede;
+    font-size: 14px;
+    padding-top: 3%;
+}
+ 
+.about .wrapper1 .btn3
+{
+    margin-top: 5%;
+}
+
+.about .wrapper1 .btn3 a
+{
+    background-color: #2bb673;
+    padding: 7px 30px 7px 30px;
+    border: 1px solid #1d7194;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+.about .wrapper1 .btn3 a:hover
+{
+    background-color: #111;
+    color: #2bb673;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
 
 
 
@@ -458,6 +504,32 @@ a{
 
 
 
+
+
+
+
+
+
+
+
+
+/* .about .wrapper1 .btn3 a
+{
+    background-color: #2bb673;
+    padding: 7px 30px 7px 30px;
+    border: 1px solid #1d7194;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+.about .wrapper1 .btn3 a:hover
+{
+    background-color: #111;
+    color: #2bb673;
+    opacity: 0.5s;
+    transition: 0.5s;
+} */
 
 
 
@@ -566,6 +638,11 @@ a{
     .nav-bar .second
     {
         display: none;
+    }
+
+    .about .wrapper1 p
+    {
+        font-size: 10px;
     }
 
 
