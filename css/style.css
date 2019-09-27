@@ -469,6 +469,68 @@ a{
     transition: 0.5s;
 }
 
+.service
+{
+    padding: 5% 0 0 0;
+    background-color: white;
+}
+
+.service .heading1 h1
+{
+    font-size: 40px;
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+}
+
+.service .heading1 p
+{
+    color: grey;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.service .images .img1 img
+{
+    width: 60%;
+    height: 100%;
+    box-shadow: 4px 4px 4px grey;
+    object-fit: cover;
+    object-position: top;
+}
+
+.service .images .wrapper2 .img2
+{
+    padding-top: 5%;
+}
+
+.service .images .wrapper2 .img2 img
+{
+    width: 40%;
+    height: 100%;
+    box-shadow: 4px 4px 4px grey;
+    object-fit: cover;
+    object-position: top;
+}
+
+.service .images  .wrapper2 .img3
+{
+    padding-top: 5%;
+}
+
+.service .images .wrapper2 .img3 img
+{
+    width: 50%;
+    position: relative;
+    float: right;
+    top: -150px;
+    height: 100%;
+    box-shadow: 4px 4px 4px grey;
+    object-fit: cover;
+    object-position: top;
+    transform: translate(-20px, 0px);
+}
+
 
 
 
@@ -610,6 +672,28 @@ a{
         padding: 5px 12px 5px 12px;
         font-size: 13px;
     }
+
+    .service .heading1 p
+    {
+        font-size: 11px;
+    }
+
+    .service .images .img1 img
+    {
+        width: 100%;
+    }
+
+    .service .images .wrapper2 .img2 img
+    {
+        width: 60%;
+    }
+
+    .service .images .wrapper2 .img3 img
+    {
+        top: -80px;
+        transform: translate(10px, 0px);
+        width: 40%
+    }
 }
 
 @media screen and (max-width: 600px)
@@ -626,7 +710,7 @@ a{
 
     .nav-bar
     {
-        height: 120vh;
+        height: 130vh;
         padding: 5% 0;
     }
 
@@ -643,6 +727,37 @@ a{
     .about .wrapper1 p
     {
         font-size: 10px;
+    }
+
+    .service
+    {
+        padding: 7% 0;
+    }
+
+    .service .heading1 p
+    {
+        font-size: 13px;
+    }
+
+    .service .images
+    {
+        padding-top: 10%;
+    }
+
+    .service .images .img1 img
+    {
+        width: 70%;
+    }
+
+    .service .images .wrapper2 .img2 img
+    {
+        width: 45%;
+    }
+
+    .service .images .wrapper2 .img3 img
+    {
+        top: -70px;
+        transform: translate(-10px, 0px);
     }
 
 
