@@ -591,6 +591,7 @@ a{
 .delivery .gif1 img
 {
     width: 100%;
+    box-shadow: 2px 2px 2px grey;
 }
 
 .delivery .heading3
@@ -800,6 +801,82 @@ a{
     transform: translate(0px, -10px);
     border-radius: 50%;
     border: 2px solid grey;
+    box-shadow: 4px 4px 5px grey;
+}
+
+.form
+{
+    padding: 5% 0;
+    background-color: white;
+}
+
+
+.form .gif
+{
+    
+}
+
+.form .gif img
+{
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 2px grey;
+}
+
+.form .input
+{
+
+}
+
+.form  input
+{
+    color: #fff;
+}
+
+.form input, .form textarea 
+{
+    background-color: #2bb673;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5% 0 5% 5%;
+    border: 1px solid #fff;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.form input::placeholder, .form textarea::placeholder
+{
+    color: #fff;
+}
+
+.form .input .name
+{
+    
+}
+
+.form .button5
+{
+    float: right;
+    margin-top: 5%;
+}
+
+.form .button5 a
+{
+    background-color: #2bb673;
+    padding: 7px 30px 7px 30px;
+    border: 1px solid #1d7194;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+.form .button5 a:hover
+{
+    background-color: #111;
+    color: #2bb673;
+    opacity: 0.5s;
+    transition: 0.5s;
 }
 
 
@@ -1134,6 +1211,11 @@ a{
     .clients .wrapper5 .job .img6 img
     {
         width: 40%;
+    }
+
+    .form
+    {
+        padding: 10% 0;
     }
 
 
