@@ -810,22 +810,11 @@ a{
     background-color: white;
 }
 
-
-.form .gif
-{
-    
-}
-
 .form .gif img
 {
     width: 100%;
     height: auto;
     box-shadow: 3px 3px 2px grey;
-}
-
-.form .input
-{
-
 }
 
 .form  input
@@ -850,11 +839,6 @@ a{
     color: #fff;
 }
 
-.form .input .name
-{
-    
-}
-
 .form .button5
 {
     float: right;
@@ -875,6 +859,46 @@ a{
 {
     background-color: #111;
     color: #2bb673;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.footer
+{
+    padding: 15px 0;
+    background-color: black;
+}
+
+.footer p
+{
+    color: #d4d4d4;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer .bar
+{
+    float: right;
+}
+
+.footer .bar a
+{
+    color: white;
+    padding: 0 10px;
+}
+
+.footer .bar i
+{
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+.footer .bar i:hover
+{
+    background-color: #111;
+    background-color: #2bb673;
+    border-radius: 4px;
+    color: black;
     opacity: 0.5s;
     transition: 0.5s;
 }
@@ -1092,6 +1116,12 @@ a{
     {
         width: 25%;
     }
+
+    .footer p
+    {
+        font-size: 13px;
+        padding-top: 2%;
+    }
 }
 
 @media screen and (max-width: 600px)
@@ -1218,6 +1248,17 @@ a{
         padding: 10% 0;
     }
 
+    .footer
+    {
+        padding: 10% 0;
+    }
+
+    .footer .bar 
+    {
+        margin-left: 30%;
+        margin-top: 5%;
+        float: left;
+    }
 
    
 }
