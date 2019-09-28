@@ -16,9 +16,10 @@ function closeNav() {
 // digital-carousel
 $('.digital-carousel').slick({
   dots: false,
+  arrows: false,
   infinite: false,
   autoplay:true,
-  speed: 300,
+  speed: 400,
   slidesToShow: 4,
   slidesToScroll: 1,
   responsive: [

@@ -3,7 +3,7 @@
 body
 {
     font-family: 'Roboto', sans-serif !important;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     margin-bottom: 0 auto;
     background: #f2f2f2;
     font-family: 'Open Sans', sans-serif;
@@ -290,7 +290,7 @@ a{
 
 .openbtn
 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 15px;
     right: 20px;
