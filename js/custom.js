@@ -17,6 +17,7 @@ function closeNav() {
 $('.digital-carousel').slick({
   dots: false,
   infinite: false,
+  autoplay:true,
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 1,
@@ -49,6 +50,30 @@ $('.digital-carousel').slick({
     // settings: "unslick"
     // instead of a settings object
   ]
+});
+
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    nav:false,
+    dots:false,
+    loop:true,
+    autoplay:true,
+    autoplaySpeed:1000,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:1,
+        },
+        1000:{
+            items:4,
+        }
+    }
+})
 });
 
 
