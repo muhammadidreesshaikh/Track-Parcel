@@ -656,6 +656,125 @@ a{
     transition: 0.5s;
 }
 
+.pricing
+{
+    padding: 5% 0;
+    background-color: white;
+}
+
+.pricing .heading4
+{
+    text-align: center;
+}
+
+.pricing .heading4 h1
+{
+    font-size: 40px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.pricing .heading4 p
+{
+    font-size: 14px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    color: grey;
+}
+
+.pricing .wrapper4
+{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.pricing  .wrapper4 .price1
+{
+    background-color: #f7f4f4;
+    padding: 15% 0;
+}
+
+.pricing  .wrapper4 .price1:hover
+{
+    box-shadow: 3px 4px 3px gray;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.pricing .price1 .img5
+{
+    background-color: #b7b7b7;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.pricing .price1 .img5 img
+{
+    width: 60%;
+    position: relative;
+    top: 20px;
+}
+
+.pricing .price1 .img5:hover
+{
+    background-color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.pricing .price1 .heading5
+{
+    padding-top: 10%;
+}
+
+.pricing .price1 .heading5 h6
+{
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.pricing .price1 .heading5 h4
+{
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.pricing .price1 .icon1
+{
+    padding-top: 6%;
+}
+
+.pricing .price1 .icon1 i
+{
+    color: #2bb673;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 2px 2px 2px 2px;
+    margin-right: 10px;
+}
+
+.pricing .price1 .icon1 p
+{
+    display: inline-block;
+    color: #00B4CC;
+    font-size: 15px;
+}
+
+.pricing .price1 .icon1 p span
+{
+    padding-right: 10px;
+    color: black;
+}
+
+
+
 
 
 
@@ -840,6 +959,16 @@ a{
     {
         font-size: 12px;
     }
+
+    .pricing
+    {
+        padding: 5% 0;
+    }
+
+    .pricing .heading4 p
+    {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 600px)
@@ -929,6 +1058,21 @@ a{
     .delivery .heading3 p
     {
         font-size: 13px;
+    }
+
+    .pricing
+    {
+        padding: 7% 0;
+    }
+
+    .pricing .heading4 p
+    {
+        font-size: 12px;
+    }
+
+    .pricing .wrapper4 .price1
+    {
+        margin-top: 5%;
     }
 
 
