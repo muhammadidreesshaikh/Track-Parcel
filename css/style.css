@@ -39,60 +39,6 @@ a{
     display: none;
 }
 
-/* .top-bar
-{
-    background-color: red;
-    padding: 5px 0;
-}
-
-.top-bar .icon
-{
-    padding: 5px 0;
-}
-
-.top-bar .icon a 
-{
-    color: white;
-    font-size: 13px;
-    padding-left: 8px;
-}
-
-.top-bar .icon i
-{
-    font-size: 16px;
-    padding-right: 3px;
-    color: black;
-}
-
-.top-bar .icon i:hover
-{
-    color: white;
-    opacity: 0.5s;
-    transition: 0.5s;
-}
-
-.top-bar .bar
-{
-    float: right;
-}
-
-.top-bar .bar i
-{
-    padding: 7px 10px 7px 10px;
-    font-size: 18px;
-    border: 1px solid red;
-    border-radius: 50px;
-    margin: 0 5px 0 5px;
-    color: white;
-}
-
-.top-bar .bar i:hover
-{
-    background-color: black;
-    color: orangered;
-    opacity: 0.5s;
-    transition: 0.5s;
-} */
 
 .nav-bar
 {
@@ -442,7 +388,7 @@ a{
 .about .wrapper1 p
 {
     color: #dedede;
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 3%;
 }
  
